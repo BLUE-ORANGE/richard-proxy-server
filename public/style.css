@@ -1,13 +1,3 @@
-#carousel {
-  padding-bottom: 50px;
-  display: inline-block;
-}
-
-#product-summary {
-  display: inline-block;
-  float: right;
-}
-
 @font-face {
   font-family: "GraphikWebfont";
   src: url('./fonts/graphik-regular-webfont.eot');
@@ -18,3 +8,41 @@
   font-weight: normal;
   font-style: normal;
 }
+
+#title {
+  font-size: 60px;
+  color: #f45800;
+  padding-left: 120px;
+  padding-top: 25px;
+}
+
+#container {
+  border: 1px solid #ececec;
+  border-bottom-color: #e2e2e2;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  width: 1050px;
+  margin-top: 50px;
+}
+
+#carousel {
+  display: inline-block;
+  width: 570px;
+  padding-left: 20px;
+}
+
+#product-summary {
+  display: inline-block;
+  float: right;
+  width: 392px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+#reviews {
+  padding-left: 15px;
+}
+
