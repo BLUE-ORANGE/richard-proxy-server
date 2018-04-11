@@ -180,3 +180,11 @@
   padding-left: 15px;
 }
 
+#sellerBar {
+  margin: auto;
+  width: 73%;
+}
+
+img {
+  width: 100%;
+}
